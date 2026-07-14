@@ -1,0 +1,108 @@
+*{
+    background-color: #0A0A0A;
+    font-family: "Poppins", sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom:2px solid white;
+    margin-bottom: 20px ;
+}
+#tag{
+    color: white;
+    font-size: 43px;
+    font-weight: 700;
+    display: inline;
+}
+
+#hello{
+    color: #82FF1F;
+    font-size: 43px;
+    font-weight: 700;
+}
+nav{
+    padding: 20px;
+}
+a{
+    color: #FFFFFF;
+    background-color: #161616;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #0A0A0A;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+#about{
+    color: #82FF1F;
+    
+}
+
+#contact{
+    border: 2px solid white;
+    color: #82FF1F;
+}
+
+body{
+    color: white;    
+}
+
+#name{
+    margin: 20px;
+    font-size: 200px;
+    font-weight: 700;
+}
+#banner{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #82FF1F;
+    box-shadow: 0 0 25px #82FF1F;
+    object-position: center right;
+}
+
+#about-me,#my-skills,#my-education,#my-contact{
+    padding-right: 5%;
+    padding-left : 5%;
+}
+#about-me>span,#my-skills>span,#my-education>span,#my-contact>span{
+    color: #82FF1F;
+    font-size: 43px;
+    font-weight: 700;
+}
+#about-me>p,#my-skills>dl,#my-education>dl{
+    line-height: 1.5;
+    padding-right: 2%;
+    padding-left : 2%;
+    font-size: 32px;
+}
+
+#contact-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer{
+    color: #FFFFFF;
+    padding-left: 5%;
+}
